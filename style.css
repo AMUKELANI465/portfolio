@@ -1,0 +1,121 @@
+/* Google Font */
+body {
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(120deg, #007cf0, #00dfd8);
+  color: rgb(45, 216, 216);
+  padding: 4rem 2rem;
+  text-align: center;
+  background: url(web1_rzrwWCNNVR.webp);
+  height: 550px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+}
+#typewriter {
+  font-size: 2.5rem;
+  border-right: 2px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#typewriter_two {
+  font-size: 2.5rem;
+  border-right: 2px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: rgb(45, 216, 216);
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+.section {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+#project-card-one{
+    background: url(sneaker4.jpg);
+}
+
+
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card a {
+  color: #007cf0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #222;
+  color: #eee;
+  margin-top: 3rem;
+}
+
+@media (max-width: 600px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
